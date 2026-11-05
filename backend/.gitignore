@@ -1,0 +1,129 @@
+
+# ==========================================
+# SMART OFFICE ATTENDANCE SYSTEM
+# ==========================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+test-results/
+junit.xml
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# Database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+*.dump
+*.bak
+
+# Alembic - KEEP migration scripts!
+# Do not ignore alembic/versions/
+
+# Face recognition and biometric data
+face_data/
+face_images/
+face_templates/
+embeddings/
+biometric_data/
+*.onnx
+*.engine
+*.pt
+*.pth
+*.weights
+
+# Camera captures and temporary images
+captures/
+camera_frames/
+temp_images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Generated attendance reports
+reports/
+generated_reports/
+*.xlsx
+*.xls
+*.csv
+
+# Edge Agent local storage
+edge_agent/data/
+edge_agent/storage/*.db
+edge_agent/storage/*.sqlite3
+edge_agent/models/
+
+# Model downloads and caches
+.model_cache/
+models_cache/
+insightface/
+.cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Node.js (if frontend tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
+*.orig
